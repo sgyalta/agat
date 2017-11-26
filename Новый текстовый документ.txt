@@ -1,0 +1,2 @@
+https://webformyself.com/plagin-fullpage-sozdanie-odnostranichnogo-sajta-so-skrollom-po-sekciyam/
+https://github.com/alvarotrigo/fullPage.js/tree/master/lang/russian

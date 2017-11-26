@@ -1,0 +1,267 @@
+body{
+    margin: 0 auto;
+     background-color: rgb(221, 217, 217);
+
+}
+.container{
+    min-width: 300px;
+    margin: 0 auto;
+}
+.navbar{
+    min-height: 60px;
+    margin-bottom: 0px;
+    color: black;
+    z-index: 777;
+}
+.navbar-header{
+
+/*    margin-left: 20px;*/
+}
+.nav-ul{
+    margin-right: 20px;
+    float: right;
+}
+.navmenu{
+    margin-right: 5%;
+    color: black;
+    font-size: 1.5em;
+}
+.navmenu a{
+    color: black;
+}
+.icon-bar{
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.icon-bar div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.thumbnail{
+    background-color: rgb(221, 217, 217);
+}
+.thumbnail,.fp-tableCell h3{
+   margin: 0px;
+}
+.fp-tableCell h3{
+    margin-bottom: 3%;
+}
+.home4-btn .btn-default,.home1-btn .btn-default{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    width: 200px;
+    border-radius: 0px;
+}
+.home1-btn-video .btn-default{
+    background-color: rgb(221, 217, 217);
+    color: black;
+    border: 1px solid black;
+    border-radius: 0px;
+    width: 198px;
+}
+
+.homebtn .btn-default{
+    background-color: rgb(221, 217, 217);
+    color: black;
+    border: 1px solid black;
+    border-radius: 0px;
+    width: 150px;
+}
+.home1{
+
+}
+.home2-font,.home3{
+  font-family: 'CenturyGothic regular';
+
+}
+.fullNavOverlay{
+    z-index: 800;
+}
+
+@media screen and (max-width: 767px)
+{
+   figure {
+    width: 70%; /* Ширина
+    padding: 2%; /* Поля */
+    margin: 0 auto;
+   }
+    .home2{
+    margin: 0 auto;
+/*    border: 2px solid #000000;   */
+    height: 100px;
+    width: 100px;
+   font-family: 'CenturyGothic';
+    text-align: center;
+}
+    .fn-gothic{
+    font-size: 14px;
+    font-family: 'CenturyGothic';
+}
+    .home2-abaut{
+        margin-bottom: 10px;
+    }
+    .home2-sp{
+    font-size: 40px;
+     font-family: 'Cochin Bold';
+    padding-top: 5px;
+
+}
+    .homebtn{
+        margin-top: 15px;
+    }
+    #map{
+    margin: 0 auto;
+    width:70%;
+    height:250px;
+}
+}
+@media screen and (min-width: 768px) and (max-width:991px)
+{
+    figure {
+    width: 70%; /* Ширина
+    padding: 2%; /* Поля */
+    margin: 0 auto;
+   }
+     .home2{
+    margin: 0 auto;
+    border: 2px solid #000000;
+    height: 100px;
+    width: 100px;
+   font-family: 'CenturyGothic';
+    text-align: center;
+}
+    .fn-gothic{
+    font-size: 15px;
+    font-family: 'CenturyGothic';
+}
+    .home2-sp{
+    font-size: 50px;
+     font-family: 'Cochin Bold';
+    padding-top: 10px;
+
+}
+    .home2-abaut{
+        margin-bottom: 15px;
+    }
+    .homebtn{
+        margin-top: 20px;
+    }
+    #map{
+    margin: 0 auto;
+    width:70%;
+    height:270px;
+}
+}
+@media screen and (min-width: 992px) and (max-width:1199px)
+{
+   figure {
+    width: 80%; /* Ширина
+    padding: 2%; /* Поля */
+    margin: 0 auto;
+   }
+     .home2{
+    margin: 0 auto;
+    border: 2px solid #000000;
+    height: 150px;
+    width: 150px;
+   font-family: 'CenturyGothic';
+    text-align: center;
+}
+    .fn-gothic{
+    font-size: 20px;
+    font-family: 'CenturyGothic';
+}
+    .home2-sp{
+    font-size: 60px;
+     font-family: 'Cochin Bold';
+    padding-top: 10px;
+
+}
+    .homebtn{
+        margin-top: 30px;
+    }
+    .home2-abaut{
+        margin-bottom: 15px;
+    }
+    #map{
+    margin: 0 auto;
+    width:70%;
+    height:350px;
+}
+}
+@media screen and (min-width: 1200px)
+{
+    figure {
+    width: 80%; /* Ширина
+    padding: 2%; /* Поля */
+    margin: 0 auto;
+   }
+     .home2{
+    margin: 0 auto;
+    border: 2px solid #000000;
+    height: 150px;
+    width: 150px;
+   font-family: 'CenturyGothic';
+    text-align: center;
+}
+    .fn-gothic{
+    font-size: 20px;
+    font-family: 'CenturyGothic';
+}
+    .home2-sp{
+    font-size: 60px;
+     font-family: 'Cochin Bold';
+    padding-top: 10px;
+
+}
+    .homebtn{
+        margin-top: 30px;
+    }
+    .home2-abaut{
+        margin-bottom: 15px;
+    }
+    #map{
+    margin: 0 auto;
+    width:70%;
+    height:350px;
+}
+}
+
+.home3-name{
+    margin-bottom: 4%;
+}
+.home3-name,.home6-name-header,.home6-name-address span{
+    font-size: 1.5em;
+}
+
+.home3-services{
+    margin: 0 auto;
+    min-height: 80px;
+    max-height: 180px;
+    min-width: 200px;
+    max-width: 250px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+}
+.home3-services span{
+    font-size: 3em;
+}
+.home3-services p{
+    font-size: 1.5em;
+}
+
+.home6-name-header{
+    margin-bottom: 3%;
+}
+.home6-name-address{
+    margin-top: 2%;
+}
+.home1-name span{
+     font-size: 2em;
+    letter-spacing: 15px;
+}
+
+
