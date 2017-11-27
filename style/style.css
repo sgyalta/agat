@@ -336,7 +336,7 @@ body {
 /* Carousel Control */
 
 .control-box {
-    text-align: right;
+    text-align: center;
     width: 100%;
 }
 
@@ -356,7 +356,6 @@ body {
 }
 
 @media (max-width: 767px) {
-    .page-header,
     .control-box {
         text-align: center;
     }
@@ -367,11 +366,43 @@ body {
         word-break: break-all;
     }
 }
+.len24{
+    text-align: center;
+}
+.len24 p{
+    font-size: 1.4em;
+}
 
+.len25 .intro{
 
-::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
-::-moz-selection { background: #ff5e99; color: #FFFFFF; }
+    width: 35%;
+    margin: 0 auto;
 
-a, a:focus, a:active, a:hover, object, embed { outline: none; }
-:-moz-any-link:focus { outline: none; }
-input::-moz-focus-inner { border: 0; }
+}
+.len25 input{
+    background-color: #ddd9d9;
+    border: 1px solid black;
+}
+.len25 textarea{
+    background-color: #ddd9d9;
+    border: 1px solid black;
+}
+.len25 button{
+    background-color: #ddd9d9;
+    border: 1px solid black;
+
+}
+
+.len26 .lending-box-style{
+   width: 50%;
+    margin: 0 auto;
+   float: none;
+    margin-bottom: 20px;
+}
+.len26 span{
+        position: absolute;
+    margin-right: 0px;
+    margin-left: 91%;
+    margin-top: 5px;
+}
+}
