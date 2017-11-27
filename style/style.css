@@ -1,61 +1,76 @@
-body{
+body {
     margin: 0 auto;
-     background-color: rgb(221, 217, 217);
+    background-color: rgb(221, 217, 217);
 
 }
-.container{
+
+.container {
     min-width: 300px;
     margin: 0 auto;
 }
-.navbar{
+
+.navbar {
     min-height: 60px;
     margin-bottom: 0px;
     color: black;
     z-index: 777;
 }
-.navbar-header{
 
-/*    margin-left: 20px;*/
+.navbar-header {
+
+    /*    margin-left: 20px;*/
 }
-.nav-ul{
+
+.nav-ul {
     margin-right: 20px;
     float: right;
 }
-.navmenu{
+
+.navmenu {
     margin-right: 5%;
     color: black;
     font-size: 1.5em;
 }
-.navmenu a{
+
+.navmenu a {
     color: black;
 }
-.icon-bar{
+
+.icon-bar {
     margin-right: 5%;
     margin-top: 15px;
     margin-left: 10px;
 }
-.icon-bar div{
+
+.icon-bar div {
     width: 35px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
 }
-.thumbnail{
+
+.thumbnail {
     background-color: rgb(221, 217, 217);
 }
-.thumbnail,.fp-tableCell h3{
-   margin: 0px;
+
+.thumbnail,
+.fp-tableCell h3 {
+    margin: 0px;
 }
-.fp-tableCell h3{
+
+.fp-tableCell h3 {
     margin-bottom: 3%;
 }
-.home4-btn .btn-default,.home1-btn .btn-default{
+
+.home4-btn .btn-default,
+.home1-btn .btn-default {
     background-color: rgb(51, 51, 51);
     color: white;
     width: 200px;
     border-radius: 0px;
 }
-.home1-btn-video .btn-default{
+
+.home1-btn-video .btn-default {
     background-color: rgb(221, 217, 217);
     color: black;
     border: 1px solid black;
@@ -63,181 +78,189 @@ body{
     width: 198px;
 }
 
-.homebtn .btn-default{
+.homebtn .btn-default {
     background-color: rgb(221, 217, 217);
     color: black;
     border: 1px solid black;
     border-radius: 0px;
     width: 150px;
 }
-.home1{
+
+.home1 {}
+
+.home2-font,
+.home3 {
+    font-family: 'CenturyGothic regular';
 
 }
-.home2-font,.home3{
-  font-family: 'CenturyGothic regular';
 
-}
-.fullNavOverlay{
+.fullNavOverlay {
     z-index: 800;
 }
 
-@media screen and (max-width: 767px)
-{
-   figure {
-    width: 70%; /* Ширина
+@media screen and (max-width: 767px) {
+    figure {
+        width: 70%;
+        /* Ширина
     padding: 2%; /* Поля */
-    margin: 0 auto;
-   }
-    .home2{
-    margin: 0 auto;
-/*    border: 2px solid #000000;   */
-    height: 100px;
-    width: 100px;
-   font-family: 'CenturyGothic';
-    text-align: center;
-}
-    .fn-gothic{
-    font-size: 14px;
-    font-family: 'CenturyGothic';
-}
-    .home2-abaut{
+        margin: 0 auto;
+    }
+    .home2 {
+        margin: 0 auto;
+        /*    border: 2px solid #000000;   */
+        height: 100px;
+        width: 100px;
+        font-family: 'CenturyGothic';
+        text-align: center;
+    }
+    .fn-gothic {
+        font-size: 14px;
+        font-family: 'CenturyGothic';
+    }
+    .home2-abaut {
         margin-bottom: 10px;
     }
-    .home2-sp{
-    font-size: 40px;
-     font-family: 'Cochin Bold';
-    padding-top: 5px;
+    .home2-sp {
+        font-size: 40px;
+        font-family: 'Cochin Bold';
+        padding-top: 5px;
 
-}
-    .homebtn{
+    }
+    .homebtn {
         margin-top: 15px;
     }
-    #map{
-    margin: 0 auto;
-    width:70%;
-    height:250px;
+    #map {
+        margin: 0 auto;
+        width: 70%;
+        height: 250px;
+    }
 }
-}
-@media screen and (min-width: 768px) and (max-width:991px)
-{
-    figure {
-    width: 70%; /* Ширина
-    padding: 2%; /* Поля */
-    margin: 0 auto;
-   }
-     .home2{
-    margin: 0 auto;
-    border: 2px solid #000000;
-    height: 100px;
-    width: 100px;
-   font-family: 'CenturyGothic';
-    text-align: center;
-}
-    .fn-gothic{
-    font-size: 15px;
-    font-family: 'CenturyGothic';
-}
-    .home2-sp{
-    font-size: 50px;
-     font-family: 'Cochin Bold';
-    padding-top: 10px;
 
-}
-    .home2-abaut{
+@media screen and (min-width: 768px) and (max-width:991px) {
+    figure {
+        width: 70%;
+        /* Ширина
+    padding: 2%; /* Поля */
+        margin: 0 auto;
+    }
+    .home2 {
+        margin: 0 auto;
+        border: 2px solid #000000;
+        height: 100px;
+        width: 100px;
+        font-family: 'CenturyGothic';
+        text-align: center;
+    }
+    .fn-gothic {
+        font-size: 15px;
+        font-family: 'CenturyGothic';
+    }
+    .home2-sp {
+        font-size: 50px;
+        font-family: 'Cochin Bold';
+        padding-top: 10px;
+
+    }
+    .home2-abaut {
         margin-bottom: 15px;
     }
-    .homebtn{
+    .homebtn {
         margin-top: 20px;
     }
-    #map{
-    margin: 0 auto;
-    width:70%;
-    height:270px;
+    #map {
+        margin: 0 auto;
+        width: 70%;
+        height: 270px;
+    }
 }
-}
-@media screen and (min-width: 992px) and (max-width:1199px)
-{
-   figure {
-    width: 80%; /* Ширина
-    padding: 2%; /* Поля */
-    margin: 0 auto;
-   }
-     .home2{
-    margin: 0 auto;
-    border: 2px solid #000000;
-    height: 150px;
-    width: 150px;
-   font-family: 'CenturyGothic';
-    text-align: center;
-}
-    .fn-gothic{
-    font-size: 20px;
-    font-family: 'CenturyGothic';
-}
-    .home2-sp{
-    font-size: 60px;
-     font-family: 'Cochin Bold';
-    padding-top: 10px;
 
-}
-    .homebtn{
-        margin-top: 30px;
-    }
-    .home2-abaut{
-        margin-bottom: 15px;
-    }
-    #map{
-    margin: 0 auto;
-    width:70%;
-    height:350px;
-}
-}
-@media screen and (min-width: 1200px)
-{
+@media screen and (min-width: 992px) and (max-width:1199px) {
     figure {
-    width: 80%; /* Ширина
+        width: 80%;
+        /* Ширина
     padding: 2%; /* Поля */
-    margin: 0 auto;
-   }
-     .home2{
-    margin: 0 auto;
-    border: 2px solid #000000;
-    height: 150px;
-    width: 150px;
-   font-family: 'CenturyGothic';
-    text-align: center;
-}
-    .fn-gothic{
-    font-size: 20px;
-    font-family: 'CenturyGothic';
-}
-    .home2-sp{
-    font-size: 60px;
-     font-family: 'Cochin Bold';
-    padding-top: 10px;
+        margin: 0 auto;
+    }
+    .home2 {
+        margin: 0 auto;
+        border: 2px solid #000000;
+        height: 150px;
+        width: 150px;
+        font-family: 'CenturyGothic';
+        text-align: center;
+    }
+    .fn-gothic {
+        font-size: 20px;
+        font-family: 'CenturyGothic';
+    }
+    .home2-sp {
+        font-size: 60px;
+        font-family: 'Cochin Bold';
+        padding-top: 10px;
 
-}
-    .homebtn{
+    }
+    .homebtn {
         margin-top: 30px;
     }
-    .home2-abaut{
+    .home2-abaut {
         margin-bottom: 15px;
     }
-    #map{
-    margin: 0 auto;
-    width:70%;
-    height:350px;
-}
+    #map {
+        margin: 0 auto;
+        width: 70%;
+        height: 350px;
+    }
 }
 
-.home3-name{
+@media screen and (min-width: 1200px) {
+    figure {
+        width: 80%;
+        /* Ширина
+    padding: 2%; /* Поля */
+        margin: 0 auto;
+    }
+    .home2 {
+        margin: 0 auto;
+        border: 2px solid #000000;
+        height: 150px;
+        width: 150px;
+        font-family: 'CenturyGothic';
+        text-align: center;
+    }
+    .fn-gothic {
+        font-size: 20px;
+        font-family: 'CenturyGothic';
+    }
+    .home2-sp {
+        font-size: 60px;
+        font-family: 'Cochin Bold';
+        padding-top: 10px;
+
+    }
+    .homebtn {
+        margin-top: 30px;
+    }
+    .home2-abaut {
+        margin-bottom: 15px;
+    }
+    #map {
+        margin: 0 auto;
+        width: 70%;
+        height: 350px;
+    }
+}
+
+.home3-name {
     margin-bottom: 4%;
 }
-.home3-name,.home6-name-header,.home6-name-address span{
+
+.home3-name,
+.home6-name-header,
+.home6-name-address span {
     font-size: 1.5em;
 }
 
-.home3-services{
+.home3-services {
     margin: 0 auto;
     min-height: 80px;
     max-height: 180px;
@@ -246,22 +269,109 @@ body{
     border: 2px solid black;
     margin-bottom: 40px;
 }
-.home3-services span{
+
+.home3-services span {
     font-size: 3em;
 }
-.home3-services p{
+
+.home3-services p {
     font-size: 1.5em;
 }
 
-.home6-name-header{
+.home6-name-header {
     margin-bottom: 3%;
 }
-.home6-name-address{
+
+.home6-name-address {
     margin-top: 2%;
 }
-.home1-name span{
-     font-size: 2em;
+
+.home1-name span {
+    font-size: 2em;
     letter-spacing: 15px;
 }
 
 
+
+/*lending2 Style*/
+
+.lending-box-style {
+    border: 2px solid black;
+}
+
+.name-header {
+    text-align: center;
+}
+
+.len21 {
+    margin: 0 auto;
+    width: 50%;
+    min-height: 450px;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.len23 {
+    font-size: 1em;
+}
+
+#section2,
+#section3 h2 p {
+    text-align: center;
+}
+
+
+/* Thumbnail Box */
+
+.caption p {
+    font-size: 1rem;
+    color: black;
+}
+
+.btn.btn-mini {
+    font-size: 0.63rem;
+}
+
+
+/* Carousel Control */
+
+.control-box {
+    text-align: right;
+    width: 100%;
+}
+
+.carousel-control {
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+
+@media (max-width: 767px) {
+    .page-header,
+    .control-box {
+        text-align: center;
+    }
+}
+
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+body:after{content:"less than 320px";font-size:1rem;font-weight:bold;position:fixed;bottom:0;width:100%;text-align:center;background-color:hsla(1,60%,40%,0.7);color:#fff;height:20px;padding-top:0;margin-left:0;left:0}@media only screen and (min-width:320px){body:after{content:"320 to 480px";background-color:hsla(90,60%,40%,0.7);height:20px;padding-top:0;margin-left:0}}@media only screen and (min-width:480px){body:after{content:"480 to 768px";background-color:hsla(180,60%,40%,0.7);height:20px;padding-top:0;margin-left:0}}@media only screen and (min-width:768px){body:after{content:"768 to 980px";background-color:hsla(270,60%,40%,0.7);height:20px;padding-top:0;margin-left:0}}@media only screen and (min-width:980px){body:after{content:"980 to 1024px";background-color:hsla(300,60%,40%,0.7);height:20px;padding-top:0;margin-left:0}}@media only screen and (min-width:1024px){body:after{content:"1024 and up";background-color:hsla(360,60%,40%,0.7);height:20px;padding-top:0;margin-left:0}}
+
+::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }
+
+a, a:focus, a:active, a:hover, object, embed { outline: none; }
+:-moz-any-link:focus { outline: none; }
+input::-moz-focus-inner { border: 0; }
