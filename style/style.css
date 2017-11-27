@@ -372,6 +372,9 @@ body {
 .len24{
     text-align: center;
 }
+.len24 .fp-tableCell{
+    vertical-align: inherit;
+}
 .len24 h3{
     margin-bottom: 5px;
 }
@@ -417,4 +420,18 @@ body {
     margin: 0 auto;
     float: none;
     margin-bottom: 10px;
+}
+.btnsnd a{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(221, 217, 217);
+    color: black;
+    border: 1px solid black;
+    border-radius: 0px;
+    width: 150px;
+}
+.btnsnd a:hover{
+    background-color: rgb(51, 51, 51);
+    color: white;
+
 }
