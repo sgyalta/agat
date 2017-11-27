@@ -315,9 +315,12 @@ body {
     font-size: 1em;
 }
 
-#section2,
-#section3 h2 p {
-    text-align: center;
+#section2,#section3{
+      text-align: center;
+}
+
+#section2 p,#section3 p{
+    text-align: justify;
 }
 
 
@@ -369,6 +372,10 @@ body {
 .len24{
     text-align: center;
 }
+.len24 h3{
+    margin-bottom: 5px;
+}
+
 .len24 p{
     font-size: 1.4em;
 }
@@ -400,9 +407,14 @@ body {
     margin-bottom: 20px;
 }
 .len26 span{
-        position: absolute;
+    position: absolute;
     margin-right: 0px;
     margin-left: 91%;
     margin-top: 5px;
 }
+.len27 .lending-box-style{
+    width: 55%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 }
