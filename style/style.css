@@ -434,7 +434,7 @@ body {
     color: black;
     border: 1px solid black;
     border-radius: 0px;
-    width: 150px;
+    width: 170px;
 }
 .btnsnd a:hover{
     background-color: rgb(51, 51, 51);
@@ -449,9 +449,17 @@ body {
     color: black;
      border: 1px solid black;
 }
+hr{
+    border-top: 2px solid black;
+}
+
+
+
+
+
+
+
 /*время   */
-
-
 
 .date-picker,
 .date-container {
