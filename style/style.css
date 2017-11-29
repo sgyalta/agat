@@ -304,8 +304,9 @@ body {
 }
 
 .len21 {
-    margin: 0 auto;
     width: 50%;
+    margin: 0 auto;
+
     min-height: 450px;
     font-size: 1.5em;
     padding: 5px;
@@ -385,7 +386,7 @@ body {
 
 .len25 .intro{
 
-    width: 35%;
+    width: 55%;
     margin: 0 auto;
 
 }
@@ -404,7 +405,7 @@ body {
 }
 
 .len26 .lending-box-style{
-   width: 50%;
+   width: 55%;
     margin: 0 auto;
    float: none;
     margin-bottom: 20px;
